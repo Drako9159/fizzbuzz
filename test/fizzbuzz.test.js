@@ -1,7 +1,7 @@
 const ExplorerService = require('../lib/services/ExplorerService')
-const Reader = require('../lib/utils/Reader') 
+const Reader = require('../lib/utils/reader.js') 
 const explorers = Reader.readJsonFile("./explorers.json")
-const FizzbuzzService = require('../lib/services/FizzbuzzService')
+
 /* */
 describe("Tets fizzbuzz", () => {
     test("test filterByMission", () => {
