@@ -15,4 +15,9 @@ describe("Tets fizzbuzz", () => {
         const usernamesInNode = ExplorerService.getExplorersUsernamesByMission(fizzbuzzObjet, "node");
         expect(usernamesInNode).toEqual(["aline"]);
     });
+    test("Test4: getExplorersNamesByMission", () => {
+        const fizzbuzzObjet = [{name: "Elis", mission: "node", githubUsername: "aline"},{name: "Ferrys", mission: "java", githubUsername: "bestie"}] 
+        const usernamesInNode = ExplorerService.getNamesByMission(fizzbuzzObjet, "node");
+        expect(usernamesInNode).toEqual(["Elis"]);
+    });
 });
