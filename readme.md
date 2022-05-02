@@ -6,7 +6,7 @@
 - Un bot de telegram aplica el método fizzbuzz que valida según sea el número dado
 - Un servidor abierto en el puerto 3000 `localhost:3000/v1/`
 
-##
+## Servidor
 `````shell
 npm run server
 `````
@@ -15,3 +15,7 @@ npm run server
 - Cantidad de explorers por misión `localhost:3000/v1/explorers/amount/:mision` "node or java".
 - Usernames por misión `localhost:3000/v1/explorers/usernames/:mision` "node or java".
 - Filtro fizzbuzz `localhost:3000/v1/fizzbuzz/:score` devuelve fizz, buzz o fizzbuzz.
+## Telegram Bot
+````shell
+npm run bot
+````
